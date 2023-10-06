@@ -1,30 +1,24 @@
 ﻿namespace ShopCart.Domain.Entities;
 
-public class Item : EntityBase
+public class Product : EntityBase
 {
-    public Item(string name, string description, double price)
+    public Product(string name, string description, decimal price)
     {
         Name = name;
         Description = description;
         Price = price;
     }
 
-    public Item()
-    {
-    }
-
     /// <summary>
     /// Nome do produto
     /// </summary>
     public string Name { get; private set; }
-
     /// <summary>
-    /// Descrição do produto
+    /// Descrição do Produto
     /// </summary>
     public string Description { get; private set; }
-
     /// <summary>
-    /// Preço do produto
+    /// Preço do Produto
     /// </summary>
-    public double Price { get; private set; }
+    public decimal Price { get; private set; }
 }
