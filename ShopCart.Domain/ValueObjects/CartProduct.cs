@@ -1,4 +1,6 @@
-﻿namespace ShopCart.Domain.Entities;
+﻿using ShopCart.Domain.Entities;
+
+namespace ShopCart.Domain.ValueObjects;
 
 public class CartProduct
 {

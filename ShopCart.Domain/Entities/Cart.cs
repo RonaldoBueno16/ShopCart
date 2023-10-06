@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using ShopCart.Domain.ValueObjects;
 
 namespace ShopCart.Domain.Entities;
 
